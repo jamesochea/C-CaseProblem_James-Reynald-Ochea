@@ -6,10 +6,17 @@ int main() {
     printf("ID Number: 2025304159\n\n");
 
     
-    int num1 = 15, num2 = 25, sum;
- 
-    sum = num1 + num2;
-  printf("Result: The sum of %d and %d is %d\n", num1, num2, sum);
+    float celsius, fahrenheit;
+
+    
+    printf("Enter temperature in Celsius: ");
+    scanf("%f", &celsius);
+
+    
+    fahrenheit = (celsius * 9 / 5) + 32;
+
+    
+    printf("Temperature in Fahrenheit: %.2f°F\n", fahrenheit);
 
     return 0;
 }
